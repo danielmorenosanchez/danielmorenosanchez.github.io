@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portafolio profesional de Daniel Moreno Sánchez, Ingeniero en Telecomunicaciones.">
     <title>Daniel Moreno Sánchez | Portafolio profesional</title>
     <link rel="stylesheet" href="style.css">
+    <script src="java.js" defer></script>
 </head>
 <body>
     <header class="site-header">
-        <a class="logo" href="#home" aria-label="Ir al inicio">DMS</a>
+        <a class="logo" href="#home" aria-label="Ir al inicio">Daniel Moreno</a>
 
         <nav class="main-navigation" aria-label="Navegación principal">
             <ul>
@@ -20,8 +21,16 @@
                 <li><a href="#contact">Contacto</a></li>
             </ul>
         </nav>
+        <button
+            class="theme-toggle"
+            type="button"
+            aria-label="Activar tema oscuro"
+            aria-pressed="false"
+            >
+            <span class="theme-icon" aria-hidden="true">&#9790;</span>
+        </button>
     </header>
-
+    
     <main>
         <section id="home" class="hero" aria-labelledby="home-title">
             <div class="hero-content">
@@ -151,7 +160,7 @@
 
             <div class="projects-grid">
                 <article class="project-card">
-                    <div class="project-number" aria-hidden="true">01</div>
+                    <div class="project-number" aria-hidden="true">1</div>
                     <h3>Radar Wi-Fi 2.4 GHz con opción de atenuación de señales de bajo costo</h3>
                     <p>
                         Desarrollo de un prototipo de bajo costo para detectar señales Wi-Fi
@@ -173,7 +182,7 @@
                 </article>
 
                 <article class="project-card">
-                    <div class="project-number" aria-hidden="true">02</div>
+                    <div class="project-number" aria-hidden="true">2</div>
                     <h3>Vehículo autónomo controlado mediante un selector de colores</h3>
                     <p>
                         Desarrollo de un vehículo autónomo equipado con un sensor de color
