@@ -12,7 +12,7 @@ function applyTheme(theme) {
 
     themeButton.setAttribute(
         "aria-label",
-        darkThemeIsActive ? "Activar tema claro" : "Activar tema oscuro"
+        darkThemeIsActive ? "Activate light theme" : "Activate dark theme"
     );
 }
 
